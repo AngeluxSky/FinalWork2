@@ -62,3 +62,16 @@
 Диаграмму можно нарисовать в любом редакторе, такими как Lucidchart, Draw.io, Microsoft Visio и других.
 
 ![Class diagram](https://github.com/AngeluxSky/FinalWork2/assets/124708503/79402320-3674-434f-8354-761b7a957978)
+
+
+
+CREATE DATABASE IF NOT EXISTS HumanFriends;
+
+-- Создание таблицы (домашние животные)
+CREATE TABLE IF NOT EXISTS Pets (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(255),
+    Type VARCHAR(50),
+    BirthDate DATE,
+    Commands VARCHAR(255)
+);
